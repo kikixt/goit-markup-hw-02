@@ -7,6 +7,12 @@
     --logo-font-family: 'Raleway', sans-serif;
 }
 
+
+body {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+}
+
 .list {
     list-style: none;
 }
@@ -36,9 +42,7 @@
 }
 
 .secondary-title {
-    color: var(--main-text-color);
     text-align: center;
-    font-family: var(--main-font-family);
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
@@ -46,8 +50,6 @@
 }
 
 .third-title {
-    color: var(--main-text-color);
-    font-family: var(--main-font-family);
     font-size: 14px;
     font-weight: 700;
     line-height: normal;
@@ -74,7 +76,6 @@
 
 .contact {
     color: var(--primary-text-color);
-    font-family: var(--main-font-family);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -96,7 +97,6 @@
 .main-tilte {
     color: var(--primary-white-color);
     text-align: center;
-    font-family: var(--main-font-family);        
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -127,7 +127,6 @@
 
 .peculiarities-text {
     color: var(--primary-text-color);
-    font-family: var(--main-font-family);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.42px;
@@ -140,9 +139,7 @@
 
 /* =====OUR TEAM START===== */
 .partner-name {
-    color: var(--main-text-color);
     text-align: center;
-    font-family: var(--main-font-family);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
@@ -152,7 +149,6 @@
 .position-in-team {
     color: var(--primary-text-color) ;
     text-align: center;
-    font-family: var(--main-font-family);
     font-size: 16px;
     line-height: normal;
     letter-spacing: 0.48px;
@@ -178,6 +174,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    font-style: normal;
 }
 
 .address-contact-link {
@@ -186,6 +183,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    font-style: normal;
 }
 
 /* =====FOOTER END===== */
@@ -226,8 +224,6 @@
 }
 
 .work-title { 
-    color: var(--main-text-color);
-    font-family: var(--main-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -236,7 +232,6 @@
 
 .type-work {
     color: var(--primary-text-color);
-    font-family: var(--main-font-family);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.48px;
