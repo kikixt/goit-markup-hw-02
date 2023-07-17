@@ -69,8 +69,13 @@ body {
     letter-spacing: 0.28px;
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus {
+.nav-list-link:active,
+.nav-list-link:focus,
+.nav-list-link:hover {
+    color: var(--accent-color);
+}
+ 
+.current {
     color: var(--accent-color);
 }
 
@@ -210,7 +215,9 @@ body {
     cursor: pointer;
 }
 
-.filter-button:active {
+.filter-button:active,
+.filter-button:focus,
+.filter-button:hover {
     background: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -235,6 +242,10 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.48px;
+}
+
+.work-link {
+    color: var(--main-text-color);
 }
 
 /* =====OUR WORK END===== */
